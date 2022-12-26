@@ -1,11 +1,12 @@
 package com.example.ooad_exam.entity;
 
+import jakarta.persistence.Entity;
 import org.springframework.stereotype.Controller;
 
 /**
  * Ентіті яка буде містити інформацію про сформовані рахунки
  */
-@Controller
+@Entity
 public class Receipt {
 
     /**

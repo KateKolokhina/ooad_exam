@@ -1,11 +1,10 @@
 package com.example.ooad_exam.entity;
 
-import org.springframework.stereotype.Controller;
-
+import jakarta.persistence.Entity;
 /**
  * Ентіті яка буде містити усі дані про тарифи, які можливі для вибору користувачу
  */
-@Controller
+@Entity
 public class Tariff {
 
     /**

@@ -1,11 +1,10 @@
 package com.example.ooad_exam.entity;
 
-import org.springframework.stereotype.Controller;
-
+import jakarta.persistence.Entity;
 /**
  * Ентіті яка буде містити платіжні дані користувача (у разі підписання на автоматичне списання)
  */
-@Controller
+@Entity
 public class PaymentInfo {
 
     /**

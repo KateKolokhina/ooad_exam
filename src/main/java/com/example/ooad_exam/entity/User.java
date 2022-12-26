@@ -1,11 +1,11 @@
 package com.example.ooad_exam.entity;
 
-import org.springframework.stereotype.Controller;
+import jakarta.persistence.Entity;
 
 /**
  * Ентіті яка буде містити усі основні дані про користувачів
  */
-@Controller
+@Entity
 public class User {
 
     /**
